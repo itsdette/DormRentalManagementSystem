@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Meron lahat except : frmAdminWindows&#xD;&#xA;frmClosedWarning&#xD;&#xA;frmEmailSender&#xD;&#xA;frmMain&#xD;&#xA;frmWarning">
+    <Position X="26.946" Y="5.059" Height="1.075" Width="2" />
+  </Comment>
+  <Class Name="DormRentalManagementSystem.Forms.frmDashboard">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <Members>
+      <Field Name="circularProgressBar1" Hidden="true" />
+      <Field Name="circularProgressBar2" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Field Name="dataGridView2" Hidden="true" />
+      <Field Name="dataGridView3" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="labelEmployee" Hidden="true" />
+      <Field Name="lblRoom" Hidden="true" />
+      <Field Name="lblTenant" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel10" Hidden="true" />
+      <Field Name="panel11" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="panel7" Hidden="true" />
+      <Field Name="panel8" Hidden="true" />
+      <Field Name="panel9" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>8JCAIjBBASICARRMAAWIAqACADgwAgAAYACBAQBTIwA=</HashCode>
+      <FileName>Forms\frmDashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmEmailSender">
+    <Position X="19" Y="10.75" Width="1.75" />
+    <Members>
+      <Field Name="btnNew" Hidden="true" />
+      <Field Name="btnTemplate" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+    </Members>
+    <AssociationLine Name="frmEmailNew1" Type="DormRentalManagementSystem.Forms.frmEmailNew" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19" Y="12.75" />
+        <Point X="18.625" Y="12.75" />
+        <Point X="18.625" Y="15.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="frmEmailTemplate1" Type="DormRentalManagementSystem.Forms.frmEmailTemplate" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.75" Y="12" />
+        <Point X="22.25" Y="12" />
+        <Point X="22.25" Y="16" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACJAABABAACAAAECAAEIAAgAIAAAAQCAAAA=</HashCode>
+      <FileName>Forms\frmEmailSender.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmEmailNew1" />
+      <Property Name="frmEmailTemplate1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmEmployee">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="btnAdd" Hidden="true" />
+      <Field Name="btnDelete" Hidden="true" />
+      <Field Name="btnUpdate" Hidden="true" />
+      <Field Name="comboBoxSex" Hidden="true" />
+      <Field Name="comboBoxType" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="lblID" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="txtboxContact" Hidden="true" />
+      <Field Name="txtboxName" Hidden="true" />
+      <Field Name="txtboxPassword" Hidden="true" />
+      <Field Name="txtboxUsername" Hidden="true" />
+    </Members>
+    <AssociationLine Name="frmWarning1" Type="DormRentalManagementSystem.Forms.frmWarning" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.938" Y="13.213" />
+        <Point X="2.938" Y="18.53" />
+        <Point X="9.355" Y="18.53" Type="JumpStart" />
+        <Point X="9.521" Y="18.53" Type="JumpEnd" />
+        <Point X="14.5" Y="18.53" />
+        <Point X="14.5" Y="16.31" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ComboBox" Type="DormRentalManagementSystem.Class.ComboBox" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="12.114" />
+        <Point X="1.875" Y="12.114" />
+        <Point X="1.875" Y="20.22" />
+        <Point X="8.75" Y="20.22" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACAIAgCELiBMABBzACSAEEkCAAgUogIAAAIgFwBgAUY=</HashCode>
+      <FileName>Forms\frmEmployee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmWarning1" />
+      <Property Name="ComboBox" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmPayment">
+    <Position X="5.25" Y="10.5" Width="1.5" />
+    <Members>
+      <Field Name="btnAdd" Hidden="true" />
+      <Field Name="btnUpdatePay" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Field Name="dataGridView2" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="lblDate" Hidden="true" />
+      <Field Name="lblTime" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+      <Field Name="txtboxBalance" Hidden="true" />
+      <Field Name="txtboxChange" Hidden="true" />
+      <Field Name="txtboxName" Hidden="true" />
+      <Field Name="txtboxPayment" Hidden="true" />
+      <Field Name="txtboxRent" Hidden="true" />
+      <Field Name="txtboxRoomNo" Hidden="true" />
+      <Field Name="txtboxSearch" Hidden="true" />
+      <Field Name="txtboxTenantID" Hidden="true" />
+      <Field Name="txtboxTransacNo" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="DormRentalManagementSystem.Forms.frmPayment.Program" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Forms\frmPayment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQYAAEBEACASgBRlgAGAAAQeQBl4qggEoQAAAQHAQgI=</HashCode>
+      <FileName>Forms\frmPayment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmWarning1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmPaymentHistory">
+    <Position X="10" Y="13" Width="2" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView2" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="txtboxSearch" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAZABBAAACAAAACQBAwAAAAAAAAAQAAQAA=</HashCode>
+      <FileName>Forms\frmPaymentHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmTenant">
+    <Position X="23.75" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="btnAdd" Hidden="true" />
+      <Field Name="btnDelete" Hidden="true" />
+      <Field Name="btnUpdate" Hidden="true" />
+      <Field Name="comboBoxRoomNo" Hidden="true" />
+      <Field Name="comboBoxRoomType" Hidden="true" />
+      <Field Name="comboBoxSex" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Field Name="dateTimePickerBirthday" Hidden="true" />
+      <Field Name="dateTimePickerStartDate" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label15" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="textBoxRentAmount" Hidden="true" />
+      <Field Name="txtboxContact" Hidden="true" />
+      <Field Name="txtboxEmail" Hidden="true" />
+      <Field Name="txtboxName" Hidden="true" />
+      <Field Name="txtboxRoomID" Hidden="true" />
+      <Field Name="txtboxSearch" Hidden="true" />
+      <Field Name="txtboxTenantID" Hidden="true" />
+    </Members>
+    <AssociationLine Name="frmWarning1" Type="DormRentalManagementSystem.Forms.frmWarning" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="24.062" Y="11.482" />
+        <Point X="24.062" Y="15.004" />
+        <Point X="22.333" Y="15.004" Type="JumpStart" />
+        <Point X="22.167" Y="15.004" Type="JumpEnd" />
+        <Point X="18.708" Y="15.004" Type="JumpStart" />
+        <Point X="18.542" Y="15.004" Type="JumpEnd" />
+        <Point X="16.115" Y="15.004" Type="JumpStart" />
+        <Point X="15.948" Y="15.004" Type="JumpEnd" />
+        <Point X="15.25" Y="15.004" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ComboBox" Type="DormRentalManagementSystem.Class.ComboBox" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="24.688" Y="11.482" />
+        <Point X="24.688" Y="21.632" />
+        <Point X="9.188" Y="21.632" />
+        <Point X="9.188" Y="21.19" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>8xAAAgAEFCgIEhR5AAiBUAACYAg0ggAAAAIAAQEAQw4=</HashCode>
+      <FileName>Forms\frmTenant.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmTenantDetails" />
+      <Property Name="frmWarning1" />
+      <Property Name="ComboBox" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmRoom">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="btnAdd" Hidden="true" />
+      <Field Name="btnDelete" Hidden="true" />
+      <Field Name="btnUpdate" Hidden="true" />
+      <Field Name="circularProgressBar1" Hidden="true" />
+      <Field Name="comboBoxRoomType" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="txtboxRent" Hidden="true" />
+      <Field Name="txtboxRoomID" Hidden="true" />
+      <Field Name="txtboxRoomNo" Hidden="true" />
+      <Field Name="txtboxSearch" Hidden="true" />
+    </Members>
+    <AssociationLine Name="ComboBox" Type="DormRentalManagementSystem.Class.ComboBox" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="8.375" />
+        <Point X="9.438" Y="8.375" />
+        <Point X="9.438" Y="19.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ZBAQgAREFCIKAhRzAAODEgACQAgwiAAAAAIAAQBQw0Y=</HashCode>
+      <FileName>Forms\frmRoom.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmWarning1" />
+      <Property Name="ComboBox" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.frmMain">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="btnClose" Hidden="true" />
+      <Field Name="btnLogin" Hidden="true" />
+      <Field Name="btnMaximize" Hidden="true" />
+      <Field Name="btnMinimize" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABABAAAAACAAEAAAAACAAAASAAAASAIIAIAAAQJAAAA=</HashCode>
+      <FileName>Forms\frmMain.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmLoginSample1" />
+      <Property Name="frmClosedWarning1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmLoginSample">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="btnLogin" Hidden="true" />
+      <Field Name="btnToggle" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="txtboxPassword" Hidden="true" />
+      <Field Name="txtboxUsername" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAIiEAABFBJACAAAECAAAACAIEAAAJAQBAAMI=</HashCode>
+      <FileName>Forms\frmLoginSample.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmAdminWindows2" />
+      <Property Name="frmWarning" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmAdminWindows">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <Members>
+      <Field Name="btnAcceptPayment" Hidden="true" />
+      <Field Name="btnClose" Hidden="true" />
+      <Field Name="btnDashboard" Hidden="true" />
+      <Field Name="btnEmail" Hidden="true" />
+      <Field Name="btnEmployee" Hidden="true" />
+      <Field Name="btnLogout" Hidden="true" />
+      <Field Name="btnPayment" Hidden="true" />
+      <Field Name="btnPaymenthistory" Hidden="true" />
+      <Field Name="btnRooms" Hidden="true" />
+      <Field Name="btnTenants" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="labelUsername" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panelPaymentlSubmenu" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="treeView1" Hidden="true" />
+    </Members>
+    <AssociationLine Name="frmPayment1" Type="DormRentalManagementSystem.Forms.frmPayment" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="11" />
+        <Point X="9.521" Y="11" Type="JumpStart" />
+        <Point X="9.355" Y="11" Type="JumpEnd" />
+        <Point X="7.125" Y="11" />
+        <Point X="7.125" Y="14.187" />
+        <Point X="6.75" Y="14.187" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="frmPaymentHistory1" Type="DormRentalManagementSystem.Forms.frmPaymentHistory" FixedFromPoint="true">
+      <Path>
+        <Point X="12.938" Y="11.367" />
+        <Point X="12.938" Y="14.323" />
+        <Point X="12" Y="14.323" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="frmEmailSender1" Type="DormRentalManagementSystem.Forms.frmEmailSender" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.688" Y="11.367" />
+        <Point X="13.688" Y="12.631" />
+        <Point X="14.667" Y="12.631" Type="JumpStart" />
+        <Point X="14.833" Y="12.631" Type="JumpEnd" />
+        <Point X="15.948" Y="12.631" Type="JumpStart" />
+        <Point X="16.115" Y="12.631" Type="JumpEnd" />
+        <Point X="18.809" Y="12.631" />
+        <Point X="18.809" Y="11.625" />
+        <Point X="19" Y="11.625" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AhCAgAQAkiCBIYBDAADBoDAKAACEQBAFgIBAoShDAEA=</HashCode>
+      <FileName>Forms\frmAdminWindows.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmRoom1" />
+      <Property Name="frmDashboard1" />
+      <Property Name="frmTenant1" />
+      <Property Name="frmEmployee1" />
+      <Property Name="frmPayment1" />
+      <Property Name="frmPaymentHistory1" />
+      <Property Name="frmEmailSender1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmClosedWarning">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="btnCancel" Hidden="true" />
+      <Field Name="btnYes" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABEAAACAAEASAEAAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>Forms\frmClosedWarning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmWarning">
+    <Position X="13.75" Y="14.5" Width="1.5" />
+    <Members>
+      <Field Name="btnClose" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lblWarn" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAgACAAAACAAAAQAAAAIAEAQAAAAA=</HashCode>
+      <FileName>Forms\frmWarning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmTenantDetails">
+    <Position X="23.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="btnClose" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="labelBirthday" Hidden="true" />
+      <Field Name="labelContact" Hidden="true" />
+      <Field Name="labelEmail" Hidden="true" />
+      <Field Name="labelName" Hidden="true" />
+      <Field Name="labelRent" Hidden="true" />
+      <Field Name="labelRoomID" Hidden="true" />
+      <Field Name="labelRoomNo" Hidden="true" />
+      <Field Name="labelRoomType" Hidden="true" />
+      <Field Name="labelSex" Hidden="true" />
+      <Field Name="labelStartDate" Hidden="true" />
+      <Field Name="labelTenantID" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>8AgAAAAAACBIAFBEgACAACgCAAAQQAAAAYAAAQBAAAA=</HashCode>
+      <FileName>Forms\frmTenantDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmEmailNew">
+    <Position X="18" Y="15.5" Width="1.5" />
+    <Members>
+      <Field Name="btnSend" Hidden="true" />
+      <Field Name="comboBoxRecipient" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="lblDate" Hidden="true" />
+      <Field Name="lblTime" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+      <Field Name="txtboxMessage" Hidden="true" />
+      <Field Name="txtboxSubject" Hidden="true" />
+    </Members>
+    <AssociationLine Name="ComboBox" Type="DormRentalManagementSystem.Class.ComboBox" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.5" Y="19.752" />
+        <Point X="18.5" Y="20.562" />
+        <Point X="10.25" Y="20.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAIBACAIEFBBAAOAEAaSAQAQAAAEgAAAAQBAAYA=</HashCode>
+      <FileName>Forms\frmEmailNew.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ComboBox" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Forms.frmEmailTemplate">
+    <Position X="21.5" Y="16" Width="1.5" />
+    <Members>
+      <Field Name="btnSend" Hidden="true" />
+      <Field Name="comboBoxRecipient" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="lblDate" Hidden="true" />
+      <Field Name="lblTime" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+      <Field Name="txtboxMessage" Hidden="true" />
+      <Field Name="txtboxSubject" Hidden="true" />
+    </Members>
+    <AssociationLine Name="ComboBox" Type="DormRentalManagementSystem.Class.ComboBox" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="20.5" />
+        <Point X="10.625" Y="20.5" />
+        <Point X="10.625" Y="19.688" />
+        <Point X="10.25" Y="19.688" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAIAIBACAIEFBFAQKAEAaSAQEQIACEgAAAAQBAAYA=</HashCode>
+      <FileName>Forms\frmEmailTemplate.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ComboBox" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Class.ComboBox">
+    <Position X="8.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABgAAQAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Class\ComboBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DormRentalManagementSystem.Class.myDatabase">
+    <Position X="27.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAE4AAAAAAAAAAQABAABAAAAAQAAABAAAAQAAAAAAAA=</HashCode>
+      <FileName>Class\myDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
